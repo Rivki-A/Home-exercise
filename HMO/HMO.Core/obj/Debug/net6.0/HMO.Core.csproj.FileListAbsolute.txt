@@ -1,0 +1,73 @@
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.deps.json
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.AssemblyReference.cache
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfoInputs.cache
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfo.cs
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\refint\HMO.Core.dll
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\OneDrive\שולחן העבודה\תכנות\HMO\HMO.Core\obj\Debug\net6.0\ref\HMO.Core.dll
+C:\Users\user1\Desktop\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.deps.json
+C:\Users\user1\Desktop\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfo.cs
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\refint\HMO.Core.dll
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\HMO\HMO.Core\obj\Debug\net6.0\ref\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.deps.json
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfo.cs
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\refint\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\HMO Server&Client\HMO\HMO.Core\obj\Debug\net6.0\ref\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.deps.json
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfo.cs
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\refint\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\ref\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.deps.json
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfo.cs
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\refint\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO-Server-Client\HMO\HMO.Core\obj\Debug\net6.0\ref\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.deps.json
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\bin\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.AssemblyInfo.cs
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\refint\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.pdb
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\ref\HMO.Core.dll
+C:\Users\user1\Desktop\תרגילי בית\Home-exercises-Hadasim\HMO\HMO.Core\obj\Debug\net6.0\HMO.Core.sourcelink.json

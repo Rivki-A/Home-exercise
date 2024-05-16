@@ -1,0 +1,24 @@
+
+<div class="container">
+  
+  <h1 class="text-center mb-4">Member List</h1>
+  <div *ngIf="existingUserMessage" class="alert alert-danger">{{ existingUserMessage }}</div>
+
+  <div class="row justify-content-start mb-4">
+    <img (click)="addMemberToList()" src="assets/add-user.png" alt="Add" class="icon-btn2">
+  </div>
+
+  <div class="row justify-content-start">
+      <div class="row-md-4 mb-4" *ngFor="let member of members">
+          <div class="card mb-4">
+              <app-member-details [member]="member"></app-member-details>
+              <div class="card-body ">
+                  <img (click)="deleteMember(+member?.id!)" src="assets/bin.png" alt="Delete" class="icon-btn">
+                  <img (click)="editMemberToList(member)" src="assets/form.png" alt="Edit" class="icon-btn">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+

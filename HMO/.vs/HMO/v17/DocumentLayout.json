@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C7E364D-131F-4983-800B-2BFAEE7E9488}|HMO\\HMO.API.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\home-exercises-hadasim\\hmo\\hmo\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C7E364D-131F-4983-800B-2BFAEE7E9488}|HMO\\HMO.API.csproj|solutionrelative:hmo\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C7E364D-131F-4983-800B-2BFAEE7E9488}|HMO\\HMO.API.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\home-exercises-hadasim\\hmo\\hmo\\models\\memberpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C7E364D-131F-4983-800B-2BFAEE7E9488}|HMO\\HMO.API.csproj|solutionrelative:hmo\\models\\memberpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C4FF55-8128-4CD4-BBA3-FE0F3B739C40}|HMO.Core\\HMO.Core.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\home-exercises-hadasim\\hmo\\hmo.core\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C4FF55-8128-4CD4-BBA3-FE0F3B739C40}|HMO.Core\\HMO.Core.csproj|solutionrelative:hmo.core\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7637402-5D60-42B0-B072-71D7AB86C8BF}|HMO.Data\\HMO.Data.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\home-exercises-hadasim\\hmo\\hmo.data\\repository\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7637402-5D60-42B0-B072-71D7AB86C8BF}|HMO.Data\\HMO.Data.csproj|solutionrelative:hmo.data\\repository\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7637402-5D60-42B0-B072-71D7AB86C8BF}|HMO.Data\\HMO.Data.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\home-exercises-hadasim\\hmo\\hmo.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7637402-5D60-42B0-B072-71D7AB86C8BF}|HMO.Data\\HMO.Data.csproj|solutionrelative:hmo.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "HMO\\Controllers\\MembersController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "HMO\\Controllers\\MembersController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwD8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:33:55.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberPostModel.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO\\Models\\MemberPostModel.cs",
+              "RelativeDocumentMoniker": "HMO\\Models\\MemberPostModel.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO\\Models\\MemberPostModel.cs",
+              "RelativeToolTip": "HMO\\Models\\MemberPostModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:33:35.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO.Core\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "HMO.Core\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO.Core\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "HMO.Core\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:33:25.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO.Data\\Repository\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "HMO.Data\\Repository\\MemberRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO.Data\\Repository\\MemberRepository.cs",
+              "RelativeToolTip": "HMO.Data\\Repository\\MemberRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:32:41.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "HMO.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC\u05D9 \u05D1\u05D9\u05EA\\Home-exercises-Hadasim\\HMO\\HMO.Data\\DataContext.cs",
+              "RelativeToolTip": "HMO.Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:42:52.967Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

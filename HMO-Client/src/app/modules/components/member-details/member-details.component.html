@@ -1,0 +1,121 @@
+
+<div *ngIf="member" class="member-details">  
+  
+    <div class="member-container">
+      <div class="member-image" [style.backgroundImage]="'url(assets/' + member.image + ')'"></div>
+      <h2 class="title mb-4 member-name" (click)="toggleDetails()" style="cursor: pointer;"><strong>{{ member.name }}</strong></h2>     
+    </div>
+  
+
+    <div *ngIf="showDetails" class="details-container">
+
+    <div class="detail">
+        <span class="detail-text"><strong>Id:</strong> {{ member.id }}</span>
+    </div>
+
+    <div class="detail">
+        <span class="detail-text"><strong>Identity:</strong> {{ member.identity }}</span>
+    </div>
+
+    <div class="detail">
+        <span class="detail-text"><strong>City:</strong> {{ member.city }}</span>
+    </div>
+
+    <div class="detail">
+        <span class="detail-text"><strong>Street:</strong> {{ member.street }}</span>
+    </div>
+
+    <div class="detail">
+        <span class="detail-text"><strong>House Number:</strong> {{ member.houseNumber }}</span>
+    </div>
+
+    <div class="detail">
+        <span class="detail-text"><strong>Date of Birth:</strong> {{ member.dateOfBirth }}</span>
+    </div>
+
+    <div class="detail">
+        <span class="detail-text"><strong>Phone:</strong> {{ member.phone }}</span>
+    </div>
+
+    <div class="detail">
+        <span class="detail-text"><strong>Mobile Phone:</strong> {{ member.mobilePhone }}</span>
+    </div>
+
+   <!-- להצגת פרטי החיסונים -->
+
+    <div class="detail">
+        <button (click)="toggleVaccinationDetails()" class="btn btn-primary">Corona details</button>
+    </div>
+    <div *ngIf="showVaccinationDetails" class="vaccination-details">
+        <div class="detail" *ngIf="member && member.vaccinations">
+            <span class="detail-text"><strong>Number of Vaccinations:</strong> {{ member.vaccinations.length }}</span>
+        </div>        
+        <div class="detail">
+            <span class="detail-text"><strong>Start of Illness:</strong> {{ member.startOfIll }}</span>
+        </div>
+        <div class="detail">
+            <span class="detail-text"><strong>End of Illness:</strong> {{ member.endOfIll }}</span>
+        </div>
+        <!-- מערך החיסונים -->
+          <div *ngIf="member.vaccinations && member.vaccinations.length > 0" class="vaccinations-section">
+            <h3>The details of the vaccinations</h3>
+            <div class="vaccination-details" *ngFor="let vaccination of member.vaccinations">
+              <div class="vaccination-id">ID: {{ vaccination.id }}</div>
+              <div class="vaccination-producer">Producer: {{ vaccination.producer }}</div>
+              <div class="vaccination-date">Date: {{ vaccination.date}} </div>
+              <!-- עריכה, הוספה ומחיקה -->
+              <img *ngIf="vaccination.id !== undefined" (click)="deleteVaccination(vaccination.id)"  src="assets/bin.png" alt="Delete" class="icon-btn">
+              <img (click)="editVaccination(vaccination)" src="assets/form.png" alt="Edit" class="icon-btn">
+              <hr>
+            </div>
+          </div>
+
+          <img *ngIf="canAdd()" (click)="addVaccinationFormVisible = true" src="assets/plus.png" alt="Add" class="icon-btn">
+          
+          <div *ngIf="existingUserMessage" class="alert alert-danger">{{ existingUserMessage }}</div>
+          <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+
+         <!-- הוספת חיסון -->
+          <div *ngIf="addVaccinationFormVisible">
+            <h3>Add Vaccination</h3>
+            <form (submit)="addVaccination()" class="mt-4">
+                <div class="form-group">
+                  <label for="producer">Producer:</label>
+                  <!-- <input type="text" id="producer" name="producer" [(ngModel)]="newVaccination.producer" class="form-control" required> -->
+                  <select id="producer" name="producer" [(ngModel)]="newVaccination.producer" class="form-control" required>
+                    <option *ngFor="let producer of vaccineProducers" [value]="producer">{{ producer }}</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="date">Date:</label>
+                  <input type="date" id="date" name="date" [(ngModel)]="newVaccination.date" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>     
+          </div>
+          <!-- עריכת חיסון -->
+          <div *ngIf="editedVaccination" class="edit-vaccination-form">
+            <h3>Edit Vaccination</h3>
+            <form (submit)="updateVaccination()" class="mt-4">
+              <div class="form-group">
+                <label for="editProducer">Producer:</label>
+                 <!-- <input type="text" id="editProducer" name="editProducer" [(ngModel)]="editedVaccination.producer" class="form-control" required>  -->
+                <select id="producer" name="producer" [(ngModel)]="editedVaccination.producer" class="form-control" required>
+                  <option *ngFor="let producer of vaccineProducers" [value]="producer">{{ producer }}</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="editDate">Date:</label>
+                <input type="date" id="editDate" name="editDate" [(ngModel)]="editedVaccination.date" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="editMemberId">MemberId:</label>
+                <input type="number" id="editMemberId" name="editMemberId" [(ngModel)]="editedVaccination.memberId" class="form-control" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+          </div>
+          
+    </div>
+    </div>
+</div>

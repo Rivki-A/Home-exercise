@@ -1,0 +1,47 @@
+.vaccinations-section {
+    margin-top: 20px;
+  }
+  
+  .vaccination-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .vaccination-id,
+  .vaccination-producer,
+  .vaccination-member-id {
+    margin-bottom: 5px;
+  }
+  
+  hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  .icon-btn {
+    width: 30px; /* רוחב התמונה */
+    height: 30px; /* גובה התמונה */
+    cursor: pointer; /* להציג את העכבר כאיש לחיצה */
+    margin-right: 10px;
+}
+
+.member-container {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 50px;  */
+  
+}
+
+.member-name {
+  margin-right: 10px;
+}
+
+.member-image {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+

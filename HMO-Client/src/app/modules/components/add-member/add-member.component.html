@@ -1,0 +1,52 @@
+
+<div class="container">
+    <h2>Add Member</h2>
+    <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+    <form (ngSubmit)="addMember()">
+      <div class="form-group">
+        <label for="identity">Identity:</label>
+        <input type="text" class="form-control" id="identity" [(ngModel)]="member.identity" name="identity" required (input)="validateId()">
+        <div *ngIf="idInvalid" class="error-message">Identity must contain exactly 9 digits</div>
+      </div>
+      
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="member.name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="city">City:</label>
+        <input type="text" class="form-control" id="city" [(ngModel)]="member.city" name="city" required>
+      </div>
+      <div class="form-group">
+        <label for="street">Street:</label>
+        <input type="text" class="form-control" id="street" [(ngModel)]="member.street" name="street" required>
+      </div>
+      <div class="form-group">
+        <label for="houseNumber">House Number:</label>
+        <input type="number" class="form-control" id="houseNumber" [(ngModel)]="member.houseNumber" name="houseNumber" required>
+      </div>
+      <div class="form-group">
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" class="form-control" id="dateOfBirth" [(ngModel)]="member.dateOfBirth" name="dateOfBirth" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" class="form-control" id="phone" [(ngModel)]="member.phone" name="phone" (input)="validatePhone()">
+        <div *ngIf="phoneInvalid" class="error-message">Phone number must contain 9 or 10 digits only</div>
+      </div>   
+      <div class="form-group">
+        <label for="mobilePhone">Mobile Phone:</label>
+        <input type="tel" class="form-control" id="mobilePhone" [(ngModel)]="member.mobilePhone" name="mobilePhone" (input)="validateMobilePhone()">
+        <div *ngIf="mobilePhoneInvalid" class="error-message">Mobile phone number must contain 10 digits only</div>
+      </div>
+      <div class="form-group">
+        <label for="image" class="font-weight-bold">Image:</label>
+        <input type="text" id="image" [(ngModel)]="member.image" name="image" class="form-control border-0 border-bottom">
+      </div>
+
+
+      <br>
+      <button type="submit" class="btn btn-primary">Add Member</button>
+    </form>
+  </div>
+  

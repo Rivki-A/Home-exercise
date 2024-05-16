@@ -1,0 +1,12 @@
+.icon-btn {
+    width: 50px; /* רוחב התמונה */
+    height: 50px; /* גובה התמונה */
+    cursor: pointer; /* להציג את העכבר כאיש לחיצה */
+    margin-right: 30px;
+}
+.icon-btn2 {
+    width: 75px; /* רוחב התמונה */
+    height: 50px; /* גובה התמונה */
+    cursor: pointer; /* להציג את העכבר כאיש לחיצה */
+    margin-right: 30px;
+}
