@@ -46,15 +46,15 @@ static void RectangleTower()
 
 static void TriangleTower()
 {
-    Console.WriteLine("Select an option:");
-    Console.WriteLine("1: Calculation of the perimeter of the triangle");
-    Console.WriteLine("2: The triangle print");
-    int option = int.Parse(Console.ReadLine());
-
     Console.WriteLine("Enter the height of the tower:");
     int height = int.Parse(Console.ReadLine());
     Console.WriteLine("Enter the width of the tower:");
     int width = int.Parse(Console.ReadLine());
+
+    Console.WriteLine("Select an option:");
+    Console.WriteLine("1: Calculation of the perimeter of the triangle");
+    Console.WriteLine("2: The triangle print");
+    int option = int.Parse(Console.ReadLine());
 
     switch (option)
     {
@@ -69,52 +69,71 @@ static void TriangleTower()
                 Console.WriteLine("The triangle cannot be printed.");
             }
             else
-            {   int num=(height-2)/((width-2)/2);
-                int num2 = (height - 2) % ((width - 2)/2);
-                int count = 1, p = width / 2;
-                for (int i = 0; i < p; i++)
+            {
+                switch (width)
                 {
-                    Console.Write(" ");
-                }
-                Console.Write("*");
-                Console.WriteLine();
-                count += 2;
-                p--;
-                for (int i = 0; i < num2; i++)
-                {
-                    for (int j = 0; j < p ; j++)
-                    {
-                        Console.Write(" ");
-                    }
-                    for (int j = 0; j < count; j++)
-                    {
-                        Console.Write("*");
-                    }
-                    Console.WriteLine();
-                }
-                while (count != width)
-                {
-                    for (int i = 0; i < num; i++)
-                    {
-                        for (int j = 0; j < p; j++)
+                    case 1:
+                        for (int i = 0; i < height; i++)
+                            Console.WriteLine("*");
+                        break;
+                    case 3:
+                        for (int i = 0; i < height-1; i++)
+                            Console.WriteLine(" *");
+                        Console.WriteLine("***");
+                        break;
+                    default:
+                        int num = (height - 2) / ((width - 2) / 2);
+                        int num2 = (height - 2) % ((width - 2) / 2);
+                        int count = 1, p = width / 2;
+                        //for the first line:
+                        for (int i = 0; i < p; i++)
                         {
                             Console.Write(" ");
                         }
-                        for (int j = 0; j < count; j++)
+                        Console.Write("*");
+                        Console.WriteLine();
+                        count += 2;
+                        p--;
+                        //for the top group which contains additional rows according to the remainder of the division
+                        for (int i = 0; i < num2; i++)
+                        {
+                            for (int j = 0; j < p; j++)
+                            {
+                                Console.Write(" ");
+                            }
+                            for (int j = 0; j < count; j++)
+                            {
+                                Console.Write("*");
+                            }
+                            Console.WriteLine();
+                        }
+                        //for the next lines
+                        while (count != width)
+                        {
+                            for (int i = 0; i < num; i++)
+                            {
+                                for (int j = 0; j < p; j++)
+                                {
+                                    Console.Write(" ");
+                                }
+                                for (int j = 0; j < count; j++)
+                                {
+                                    Console.Write("*");
+                                }
+                                Console.WriteLine();
+                            }
+                            p--;
+                            count += 2;
+                        }
+                        //for the last line
+                        for (int i = 0; i < width; i++)
                         {
                             Console.Write("*");
                         }
                         Console.WriteLine();
-                    }
-                    p--;
-                    count += 2;
-                }
-                for (int i = 0; i < width; i++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
+                        break;
 
+                }
             }
             break;
         default:
