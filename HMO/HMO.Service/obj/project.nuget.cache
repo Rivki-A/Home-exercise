@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8rZscRf8CUpI40Q4u8WWXuZQfVy5MP494typNzKzDtM/kF8t45ND95qM0W1sz9T5mH90vmuvhqoDoy5BlqyBgQ==",
+  "dgSpecHash": "SYZAq9L9hpjT+ObzFqyFpLnX5cembHUnU0O9zDybdWLtc+VDaMGKaySeanqT5lGwKPpUvaybqCJAabVpizNJlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercises-Hadasim\\HMO\\HMO.Service\\HMO.Service.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercise\\HMO\\HMO.Service\\HMO.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\6.2.2\\automapper.6.2.2.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

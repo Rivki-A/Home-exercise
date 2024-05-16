@@ -1,6 +1,5 @@
 import { Injectable } from "@angular/core";
 import { Member } from "../models/member.model";
-import { Member2 } from '../models/member2.model';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
@@ -19,30 +18,14 @@ constructor(private _http: HttpClient) {}
   }
 
 //server
- addMemberToServer(member: Member2): Observable<Member> {
+ addMemberToServer(member: Member): Observable<Member> {
   return this._http.post<Member>("/api/Members/", member);
 }
 
 //server
-updateMemberToServer(member: Member): Observable<Member> { 
-  const url = `/api/Members/${member.id}`;
-  const member2 = new Member2(
-    member.identity || '', 
-    member.name || '', 
-    member.city || '', 
-    member.street || '', 
-    member.houseNumber || 0, 
-    member.dateOfBirth || moment(), 
-    member.phone || '', 
-    member.mobilePhone || '',
-    member.vaccinations || [], 
-    member.numOfVaccinations || 0, 
-    member.startOfIll || moment(), 
-    member.endOfIll || moment() ,
-    member.image|| ''
-  );
-  console.log(member2)
-  return this._http.put<Member>(url, member2).pipe(
+updateMemberToServer(id:number,member: Member): Observable<Member> { 
+  const url = `/api/Members/${id}`;
+  return this._http.put<Member>(url, member).pipe(
     tap(updatedMember => console.log('Member updated successfully:', updatedMember))
   );
 }

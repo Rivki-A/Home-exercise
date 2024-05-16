@@ -6439,11 +6439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercises-Hadasim\\HMO\\HMO.Core\\HMO.Core.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercise\\HMO\\HMO.Core\\HMO.Core.csproj",
       "projectName": "HMO.Core",
-      "projectPath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercises-Hadasim\\HMO\\HMO.Core\\HMO.Core.csproj",
+      "projectPath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercise\\HMO\\HMO.Core\\HMO.Core.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercises-Hadasim\\HMO\\HMO.Core\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercise\\HMO\\HMO.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

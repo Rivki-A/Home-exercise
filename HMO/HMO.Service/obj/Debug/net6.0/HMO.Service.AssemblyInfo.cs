@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HMO.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4ae7c77341a8aef3160ffc42a371b4f47c3d58f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c43904dbdddc0c6cc275de09b36f3eccca7175e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HMO.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HMO.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,13 +18,12 @@ export class MemberDetailsComponent implements OnInit {
   id: number | undefined;
   addVaccinationFormVisible: boolean = false;
   newVaccination: Vaccination = { id: 0, producer: '', date: moment(), memberId: 0 };
-  @Input() 
+  @Input()
   member: Member | undefined;
   showVaccinationDetails: boolean = false;
   editedVaccination: Vaccination | undefined;
   vaccineProducers = Object.values(VaccineProducer);
-  constructor(private memberService:MemberService,private vaccinationService: VaccinationService, private route: ActivatedRoute) { 
-    
+  constructor(private memberService: MemberService, private vaccinationService: VaccinationService, private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
@@ -32,93 +31,95 @@ export class MemberDetailsComponent implements OnInit {
 
   showDetails: boolean = false;
 
-    toggleDetails() {
-        this.showDetails = !this.showDetails;
-    }
+  toggleDetails() {
+    this.showDetails = !this.showDetails;
+  }
 
-   //חיסונים-הצגה, עריכה, הוספה ומחיקה
-   
-    toggleVaccinationDetails() {
-      this.showVaccinationDetails = !this.showVaccinationDetails;
-      
-    }
+  //חיסונים-הצגה, עריכה, הוספה ומחיקה
 
-    editVaccination(vaccination: Vaccination) {
-      this.editedVaccination = { ...vaccination };
-       // עותק של החיסון לעריכה
-    }
-    
-    updateVaccination() {
-      if (this.editedVaccination) {
-        this.vaccinationService.updateVaccinationToServer(this.editedVaccination)
-          .subscribe(updatedVaccination => {
-            // עדכון החיסון המעודכן ברשימה
-            if(this.member&&this.member.vaccinations)
-            {const index = this.member!.vaccinations.findIndex(v => v.id === updatedVaccination.id);
+  toggleVaccinationDetails() {
+    this.showVaccinationDetails = !this.showVaccinationDetails;
+
+  }
+
+  editVaccination(vaccination: Vaccination) {
+    this.editedVaccination = { ...vaccination };
+    // עותק של החיסון לעריכה
+  }
+
+  updateVaccination() {
+    if (this.editedVaccination) {
+      this.vaccinationService.updateVaccinationToServer(this.editedVaccination)
+        .subscribe(updatedVaccination => {
+          // עדכון החיסון המעודכן ברשימה
+          if (this.member && this.member.vaccinations) {
+            const index = this.member!.vaccinations.findIndex(v => v.id === updatedVaccination.id);
             if (index !== -1) {
               this.member!.vaccinations[index] = updatedVaccination;
-            }}
-            // איפוס עריכת החיסון והודעה על הצלחה
-            this.editedVaccination = undefined;
-            this.successMessage = 'Vaccination successfully updated';
-            setTimeout(() => {
-              this.successMessage = '';
-            }, 2000);
-          },
-           error => {
-                console.error('Error updating vaccination:', error);
-              }
-            );};
-      }
+            }
+          }
+          // איפוס עריכת החיסון והודעה על הצלחה
+          this.editedVaccination = undefined;
+          this.successMessage = 'Vaccination successfully updated';
+          setTimeout(() => {
+            this.successMessage = '';
+          }, 2000);
+        },
+          error => {
+            console.error('Error updating vaccination:', error);
+          }
+        );
+    };
+  }
 
-    deleteVaccination(id: number) {
-      this.vaccinationService.deleteVaccinationFromServer(id).subscribe(() => {
-        if (this.member && this.member.vaccinations) {
+  deleteVaccination(id: number) {
+    this.vaccinationService.deleteVaccinationFromServer(id).subscribe(() => {
+      if (this.member && this.member.vaccinations) {
         this.member.vaccinations = this.member?.vaccinations!.filter(member => member.id !== id);
         console.log('Member deleted successfully');
-        this.existingUserMessage = 'The member has been successfully deleted';  
+        this.existingUserMessage = 'The member has been successfully deleted';
         setTimeout(() => {
           this.existingUserMessage = '';
         }, 2000);
-      }}, error => {
-        console.error('Error deleting member:', error);
-      });
+      }
+    }, error => {
+      console.error('Error deleting member:', error);
+    });
+  }
+
+  addVaccination(): void {
+    //לקיחת המזהה של החבר שלו רוצים להוסיף חיסון
+    if (this.member && typeof this.member.id === 'number') {
+      this.newVaccination.memberId = this.member.id;
     }
+    this.vaccinationService.addVaccinationToServer(this.newVaccination).subscribe(response => {
+      this.successMessage = 'Vaccination successfully added';
+      setTimeout(() => {
+        this.successMessage = '';
+      }, 2000);
 
-    addVaccination(): void {
-      //לקיחת המזהה של החבר שלו רוצים להוסיף חיסון
-      if (this.member && typeof this.member.id === 'number') {
-        this.newVaccination.memberId = this.member.id;
-      }      
-      this.vaccinationService.addVaccinationToServer(this.newVaccination).subscribe(response => {
-        this.successMessage = 'Vaccination successfully added';
-        setTimeout(() => {
-          this.successMessage = '';
-        }, 2000);
+      if (this.member && this.member.vaccinations) {
+        this.member.vaccinations.push(response);
+      }
+      this.addVaccinationFormVisible = false;
+      this.clearForm();
+    });
+  }
 
-        if (this.member && this.member.vaccinations) {
-          this.member.vaccinations.push(response); 
-        }
-        this.addVaccinationFormVisible = false;
-        this.clearForm();
-      });
-    }
-
-    canAdd():boolean
-    {
+  canAdd(): boolean {
     //במידה ויש לו כבר 4 חיסונים
-     if (this.member && this.member.vaccinations && this.member!.vaccinations.length >= 4) 
-        return false;
-     else  
-        return true;
+    if (this.member && this.member.vaccinations && this.member!.vaccinations.length >= 4)
+      return false;
+    else
+      return true;
   }
-    
-    clearForm(): void {
-      this.newVaccination = {
-        id: 0, producer: '', date:moment(), memberId: 0
-      };
-    }
-  
+
+  clearForm(): void {
+    this.newVaccination = {
+      id: 0, producer: '', date: moment(), memberId: 0
+    };
   }
+
+}
 
 

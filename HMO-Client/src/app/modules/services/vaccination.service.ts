@@ -1,6 +1,5 @@
 import { Injectable } from "@angular/core";
 import { Vaccination } from "../models/vaccination.model";
-import { Vaccination2 } from "../models/vaccination2.model";
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
@@ -25,12 +24,7 @@ export class VaccinationService {
 //server
 updateVaccinationToServer(vaccination: Vaccination): Observable<Vaccination> {
   const url = `/api/Vaccination/${vaccination.id}`;
-  const vaccination2 = new Vaccination2(
-   vaccination.producer|| '' ,
-   vaccination.date|| moment(),
-   vaccination.memberId || 0, 
-  );
-  return this._http.put<Vaccination>(url, vaccination2).pipe(
+  return this._http.put<Vaccination>(url, vaccination).pipe(
     tap(updatedVaccination => console.log('Vaccination updated successfully:', updatedVaccination))
   );
 }

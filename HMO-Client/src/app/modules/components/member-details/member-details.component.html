@@ -81,7 +81,6 @@
             <form (submit)="addVaccination()" class="mt-4">
                 <div class="form-group">
                   <label for="producer">Producer:</label>
-                  <!-- <input type="text" id="producer" name="producer" [(ngModel)]="newVaccination.producer" class="form-control" required> -->
                   <select id="producer" name="producer" [(ngModel)]="newVaccination.producer" class="form-control" required>
                     <option *ngFor="let producer of vaccineProducers" [value]="producer">{{ producer }}</option>
                   </select>
@@ -99,7 +98,6 @@
             <form (submit)="updateVaccination()" class="mt-4">
               <div class="form-group">
                 <label for="editProducer">Producer:</label>
-                 <!-- <input type="text" id="editProducer" name="editProducer" [(ngModel)]="editedVaccination.producer" class="form-control" required>  -->
                 <select id="producer" name="producer" [(ngModel)]="editedVaccination.producer" class="form-control" required>
                   <option *ngFor="let producer of vaccineProducers" [value]="producer">{{ producer }}</option>
                 </select>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TgF7TZKIn8Gnm7/FeULrRqiegp7igZ4Qw/9G6ZY1zfhZnD+L+ZMSI6YYJcO1GwLF5U4n5u1QGaUwOZ4VtH5hlg==",
+  "dgSpecHash": "2WtSx4sf9ueyOKXnazJrkE5I20qzC8S0RNDfJfmNmfCtJBVGyjnxDbcwvKbeHkfVP2jizfB5AoH4MNP8NvkGNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercises-Hadasim\\HMO\\HMO\\HMO.API.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercise\\HMO\\HMO\\HMO.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

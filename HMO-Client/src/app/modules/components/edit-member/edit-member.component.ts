@@ -4,7 +4,6 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import * as moment from 'moment';
 import { Member } from '../../models/member.model';
-import { Member2 } from '../../models/member2.model';
 import { MemberService } from '../../services/member.service';
 @Component({
   selector: 'edit-member',
@@ -13,8 +12,7 @@ import { MemberService } from '../../services/member.service';
 })
 export class EditMemberComponent  implements OnInit {
   successMessage: string | undefined;
-  member: Member | undefined;
-
+  member!: Member;
   constructor(private route: ActivatedRoute, private memberService: MemberService,private router: Router) { }
 
   ngOnInit(): void {
@@ -23,8 +21,23 @@ export class EditMemberComponent  implements OnInit {
   }
 
   saveChanges() {
-   if(!this.idInvalid && !this.phoneInvalid && !this.mobilePhoneInvalid && this.member)
-   { this.memberService.updateMemberToServer(this.member).subscribe(
+    const member2: any = {
+      identity: this.member.identity,
+      name: this.member.name,
+      city: this.member.city,
+      street: this.member.street,
+      houseNumber: this.member.houseNumber,
+      dateOfBirth: this.member.dateOfBirth,
+      phone: this.member.phone,
+      mobilePhone: this.member.mobilePhone,
+      vaccinations: this.member.vaccinations,
+      numOfVaccinations: this.member.numOfVaccinations,
+      startOfIll: this.member.startOfIll,
+      endOfIll: this.member.endOfIll,
+      image: this.member.image
+    };
+   if(!this.idInvalid && !this.phoneInvalid && !this.mobilePhoneInvalid && this.member&&this.member.id !== undefined)
+   { this.memberService.updateMemberToServer(+this.member.id,member2).subscribe(
       updatedMember => {
            console.log('Member updated successfully:', updatedMember);
            this.successMessage = 'The member has been successfully updated';

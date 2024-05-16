@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oVmMT3RRm/Ns9fWrGBNWQCKIrLUXT9qF2Dly3/AX/YEPomvjiN3EihJ/SRWTa394Hv++EQzPeIarSPB1xD5wwA==",
+  "dgSpecHash": "lb71bYjUWVTg7cPqIPnXE06aj6pco0ZJGoqF2qAI0IYNc+T1WtaDou3KBZf6fSOLFWzZ1RUHpRGNzk9tAweVnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercises-Hadasim\\HMO\\HMO.Data\\HMO.Data.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\תרגילי בית\\Home-exercise\\HMO\\HMO.Data\\HMO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\6.2.2\\automapper.6.2.2.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
